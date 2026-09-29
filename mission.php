@@ -4,7 +4,8 @@ function repairBarrier(): void {
     usleep(500000);
 
     $defenses = [];
-
+    
+    $defenses['magical'] = fn() => "SPELL_BOUND";
     // ==========================================
     // 【指示】担当Aも担当Bも、下の1行を自分の設定を新たに追加せよ！
     // 担当A: $defenses['physical'] = fn() => "SHIELD_UP";
