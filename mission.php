@@ -11,6 +11,7 @@ function repairBarrier(): void {
     // 担当B: $defenses['magical'] = fn() => "SPELL_BOUND";
     $defenses['dummy'] = fn() => "NONE";
     // ==========================================
+    $defenses['physical'] = fn() => "SHIELD_UP";
 
     echo "結界の同調率を計測中...\n";
     usleep(500000);
